@@ -44,4 +44,7 @@ Format the header text (Not the whole tag) and use span instead of h1/h2/...
 `{jbscard <strong><em><span style="color: #3366ff; font-size: 150%;">Formatted</span></em></strong>}`
 
 
-The Plugin can translate the tags from Reguar Labs Sliders (which a the moment doesn't support joomla 5) in a limited way. (No parameters in Headertag, No nested accordion). You can activate this by enabling convertRLsliders in jbsaccordion.php-Script
+The Plugin can translate the tags from Reguar Labs Sliders (which a the moment doesn't support joomla 5) in a limited way. (No parameters in Headertag, No nested accordion). You can activate this by enabling `convertRLsliders` in jbsaccordion.php:
+```
+protected $convertRLsliders = 1;
+```
