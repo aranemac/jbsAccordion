@@ -2,7 +2,12 @@
 Collapsible items and accordions (also nested) for Joomla 4 (Bootstrap 5)
 
 Doesn't come with a big framework or a lot of gimmicks. It's only one single php-script with less than 200 codelines.
-But it (hopefully) does it's job:
+But it (hopefully) does it's job.
+
+### Usage:
+single collapsibles: `{jbscard Headertext} ... content ... {/jbscard}`<br />
+accordions: `{jbsgroup} ... cards or subcroups ... {/jbsgroup}`<br />
+2. level accordions: `{jbssubgroup Headertext} ... cards ... {/jbssubgroup}`<br />
 
 ### Single Collapsibles:
 ```
