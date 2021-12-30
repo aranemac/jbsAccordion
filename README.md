@@ -2,7 +2,7 @@
 Collapsible items and accordions (also nested) for Joomla 4 (Bootstrap 5)
 
 Doesn't come with a big framework or a lot of gimmicks. It's only one single php-script with less than 200 codelines.
-But it (hopefully) does it's job.
+But it (hopefully) does it's job. (Known issues see bottom of this page)
 
 ### Usage:
 single collapsibles: `{jbscard Headertext} ... content ... {/jbscard}`<br />
@@ -64,3 +64,15 @@ In the above pictures I used:
 div.accordion-item { margin:5px; }
 button.accordion-button { background-color:#F8F8F8; padding: 8px 16px; }
 ```
+
+---
+### Known issues:
+
+The plugin fails on some templates (e.g. Cassiopeia)
+
+You can fix this by inserting the following line at the start of the php-Skript (after `jimport('joomla.plugin.plugin');`)
+```
+\Joomla\CMS\HTML\HTMLHelper::_('bootstrap.collapse', '.selector', []);
+```
+
+(This line can't be includes generally. Will be fixed in the future)
