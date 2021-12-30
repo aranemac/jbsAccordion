@@ -75,4 +75,4 @@ You can fix this by inserting the following line at the start of the php-Skript 
 \Joomla\CMS\HTML\HTMLHelper::_('bootstrap.collapse', '.selector', []);
 ```
 
-(This line can't be includes generally. Will be fixed in the future)
+(This line can't be includes generally. Will be fixed soon by adding a configuration option)
