@@ -52,7 +52,7 @@ Format the header text only (not the whole tag) and use span instead of h1,h2.. 
 
 ---
 
-The Plugin can translate the tags from Reguar Labs Sliders (which a the moment doesn't support joomla 5) in a limited way. (No parameters in Headertag, No nested accordion).<br/>
+The Plugin can translate the tags from Reguar Labs Sliders (which a the moment doesn't support Joomla 4) in a limited way. (No parameters in Headertag, No nested accordion).<br/>
 You can activate this by enabling `convertRLsliders` in jbsaccordion.php:
 ```
 protected $convertRLsliders = 1;
