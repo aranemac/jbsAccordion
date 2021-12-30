@@ -52,3 +52,10 @@ You can activate this by enabling `convertRLsliders` in jbsaccordion.php:
 ```
 protected $convertRLsliders = 1;
 ```
+---
+You can style the accordions in your custom.css by overwriting the bootstrap-styles.
+In the above pictures I used:
+```
+div.accordion-item { margin:5px; }
+button.accordion-button { background-color:#F8F8F8; padding: 8px 16px; }
+```
