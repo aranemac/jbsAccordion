@@ -41,7 +41,7 @@ You can format the header too:
 
 ![pics/formatted.png](pics/formatted.png)
 
-Format the header text (Not the whole tag) and use span instead of h1/h2/...
+Format the header text only (not the whole tag) and use span instead of h1,h2.. Don't use block-tags either.
 
 `{jbscard <strong><em><span style="color: #3366ff; font-size: 150%;">Formatted</span></em></strong>}`
 
