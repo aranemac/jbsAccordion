@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="content">
+	<name>PLG_CONTENT_JBSACCORDION</name>
+	<version>1.0.0</version>
+	<author>Achim Raphael</author>
+	<creationDate>Dec. 2021</creationDate>
+	<copyright>Copyright (c) 2021 - Achim Raphael. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or later - http://www.gnu.org/licenses/licenses.en.html#GPL</license>
+	<description>PLG_CONTENT_JBSACCORDION_DESCRIPTION</description>
+	<files>
+		<filename plugin="jbsaccordion">jbsaccordion.php</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_content_jbsaccordion.sys.ini</language>
+	</languages>
+</extension>
