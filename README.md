@@ -6,8 +6,8 @@ But it (hopefully) does it's job.
 
 ### Usage:
 single collapsibles: `{jbscard Headertext} ... content ... {/jbscard}`<br />
-accordions: `{jbsgroup} ... cards or subgroups ... {/jbsgroup}`<br />
-2. level accordions: `{jbssubgroup Headertext} ... cards ... {/jbssubgroup}`<br />
+accordions: `{jbsgroup} ... jbscards or subgroups ... {/jbsgroup}`<br />
+2nd level accordions: `{jbssubgroup Headertext} ... cards ... {/jbssubgroup}`<br />
 
 ### Single Collapsibles:
 ```
