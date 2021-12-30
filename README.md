@@ -70,7 +70,7 @@ button.accordion-button { background-color:#F8F8F8; padding: 8px 16px; }
 
 The plugin fails on some templates (e.g. Cassiopeia)
 
-You can fix this by inserting the following line at the start of the php-Skript (after `jimport('joomla.plugin.plugin');`)
+You can fix this by inserting the following line at the start of the php-Skript (into function `onContentPrepare()`)
 ```
 \Joomla\CMS\HTML\HTMLHelper::_('bootstrap.collapse', '.selector', []);
 ```
