@@ -1,0 +1,2 @@
+31.12.2021	1.1.0	Add an option to load Bootstrap5-Collapsible or not (see README.md)
+30.12.2021	1.0.0	First release
