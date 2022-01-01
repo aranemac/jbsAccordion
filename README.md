@@ -3,15 +3,18 @@ Collapsible items and accordions (also nested) for Joomla 4 (Bootstrap 5)
 
 Doesn't come with a big framework or a lot of gimmicks. It's only one single php-script with less than 200 codelines.
 But it (hopefully) does it's job.
+
 ### Configuration
-The plugin needs Bootstrap 5. (which is part of Joomla 4)<br />
+The plugin uses Bootstrap 5. (which is part of Joomla 4)<br />
 By default the "collapse" part of bootstrap is loaded. However some templates are loading their own Bootstrap Framework, what may interfere with the default one. In this case you have to disable this option.
 
 ![pics/bootstrap1.png](pics/bootstrap1.png)
 
 ### Usage:
-single collapsibles: `{jbscard Headertext} ... content ... {/jbscard}`<br />
-accordions: `{jbsgroup} ... jbscards or subgroups ... {/jbsgroup}`<br />
+single collapsibles: `{jbscard Headertext} ... content ... {/jbscard}`
+
+accordions: `{jbsgroup} ... jbscards or subgroups ... {/jbsgroup}`
+
 2nd level accordions: `{jbssubgroup Headertext} ... cards ... {/jbssubgroup}`<br />
 
 ### Single Collapsibles:
