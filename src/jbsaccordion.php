@@ -124,15 +124,16 @@ class PlgContentjbsaccordion extends JPlugin
 
 // ------- bootstrap accordion-item code --------------------
 			$cardcode = <<<EOCC
-  <div class="accordion-item">
+  <div class="accordion-item accordion">
     <div class="accordion-header" id="$headid">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#$bodyid" aria-expanded="false" aria-controls="$bodyid">
 $cardtitle
       </button>
     </div>
-    <div id="$bodyid" class="accordion-collapse collapse" aria-labelledby="$headid" $parenttag>
+    <div id="$bodyid" class="accordion-collapse collapse accordion" aria-labelledby="$headid" $parenttag>
       <div class="accordion-body">
 $cardcontent
+				<div class="clear"></div>
       </div>
     </div>
   </div>
