@@ -4,6 +4,8 @@ Collapsible items and accordions (also nested) for Joomla 4 (Bootstrap 5)
 Doesn't come with a big framework or a lot of gimmicks. It's only one single php-script with less than 200 codelines.
 But it (hopefully) does it's job.
 
+**Note**: In **Joomla 5** the Backward Compatibility Plugin must be enabled
+
 ### Configuration
 The plugin uses Bootstrap 5. (which is part of Joomla 4)<br />
 By default the "collapse" part of bootstrap is loaded. However some templates are loading their own Bootstrap Framework, what may interfere with the default one. In this case you have to disable this option.
