@@ -7,7 +7,7 @@ But it (hopefully) does it's job.
 Works now with **Joomla 5** without Backward Compatibility Plugin
 
 ### Configuration
-The plugin uses Bootstrap 5. (which is part of Joomla 4)<br />
+The plugin uses Bootstrap 5. (which is part of Joomla 4+5)<br />
 By default the "collapse" part of bootstrap is loaded. However some templates are loading their own Bootstrap Framework, what may interfere with the default one. In this case you have to disable this option.
 
 ![pics/bootstrap1.png](pics/bootstrap1.png)
