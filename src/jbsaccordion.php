@@ -1,5 +1,5 @@
 <?php
-// (c) 2021/24 by Achim Raphael
+// (c) 2021 by Achim Raphael
 
 defined('_JEXEC') or die;
 
@@ -15,6 +15,12 @@ class PlgContentjbsaccordion extends Joomla\CMS\Plugin\CMSPlugin
 
 	public function onContentPrepare( $context, &$article, &$params, $page=0 )
 	{
+		$load_bootstrap = (int)$this->params->get("load_bootstrap", "1");
+
+		if ( $load_bootstrap == 1 ) {
+			\Joomla\CMS\HTML\HTMLHelper::_('bootstrap.collapse', '.selector', []);
+		}
+
 		$txt = $article->text;
 
 		// Converting Regular Labs Sliders to jbsSliders (Very limited)
